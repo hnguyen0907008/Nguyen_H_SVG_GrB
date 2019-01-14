@@ -3,11 +3,11 @@
 .image-wrapper
 {
 	display: inline-block;
-	width: 700px;
+	width: 500px;
 }
 
 img
 {
-	width: 700px;
+	width: 500px;
 	display: block;
 }
