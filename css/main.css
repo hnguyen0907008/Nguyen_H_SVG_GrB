@@ -1,0 +1,13 @@
+@charset "UTF-8"
+
+.image-wrapper
+{
+	display: inline-block;
+	width: 700px;
+}
+
+img
+{
+	width: 700px;
+	display: block;
+}
