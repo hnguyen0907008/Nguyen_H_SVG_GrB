@@ -3,7 +3,7 @@
 .image-wrapper
 {
 	display: inline-block;
-	width: 700px;
+	width: 600px;
 }
 
 img
@@ -11,3 +11,8 @@ img
 	width: 700px;
 	display: block;
 }
+
+.st0{opacity: 0.27;}
+
+/*ad !important*/ 
+.st1{fill: #E3F90D;} 
