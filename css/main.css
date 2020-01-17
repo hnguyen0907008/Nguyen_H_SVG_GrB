@@ -1,13 +1,14 @@
 @charset "UTF-8"
 
-.image-wrapper
-{
-	display: inline-block;
-	width: 700px;
-}
 
-img
-{
-	width: 700px;
-	display: block;
-}
+.img-wrapper {display: inline-block; width: 35%; padding: 10px 15px;}
+
+
+.black-background { background-color: black; }
+
+.st0{fill:#333;}
+
+#lGrain_1_ {fill: red;}
+#rGrain{fill: red;}
+
+#lGrain_1_:hover, #rGrain:hover{fill: yellow;}
