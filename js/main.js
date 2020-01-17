@@ -1,10 +1,23 @@
 (() => {
-	//self-invoking anonymous function (or Lambda)
-	//var => means create a variable
-	//whatever comes after the = is what the variable
-	var images = document.querySelectorAll('img');
+	console.log('hello from js');
+	let toggleButton = document.querySelector(".switch-text");
+		myHeading = document.querySelector("h1");
+		//svgImg2 works here, butdoesn't work with many elements
+		//svgImg2= document.querySelector("#badge2"); 
+		allSVG = document.querySelectorAll(".svg");
 
-	//document is always the webpage
-	//after the dot is always a method or a property
-	console.log(images);
+	function changeText(){
+		myHeading.textContent = "what's up?";
+	}
+
+	function logSVG(){
+		console.log(this.id); //this = current element, #id = change to other stuff
+	}
+
+	//function changeSize(){}
+
+	toggleButton.addEventListener("click", changeText);
+	//looping allSVG
+	allSVG.forEach(item => item.addEventListener("click", logSVG));
+	
 })();
